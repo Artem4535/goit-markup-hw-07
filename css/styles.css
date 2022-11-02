@@ -57,7 +57,7 @@ img {
   transition: color 250ms
     cubic-bezier(0.4, 0, 0.2, 1);
 }
-.connect__list .header-link {
+.connect__list .connect__link {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -96,12 +96,6 @@ img {
 }
 .nav-icon {
   fill: var(--second-text-color);
-  width: 16px;
-  height: 16px;
-}
-.nav-icon-envelope {
-  width: 16px;
-  height: 12px;
 }
 body {
   background-color: var(
@@ -160,7 +154,7 @@ a {
   gap: 50px;
   margin-left: auto;
 }
-.header-link {
+.connect__link {
   color: var(--second-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -171,26 +165,22 @@ a {
   transition: color 250ms
     cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-icon {
-  fill: currentColor;
-  background-repeat: no-repeat;
-}
 
-.header-link .nav-icon {
+.connect__link .connect__icon {
   transition: fill 250ms
     cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-link:focus .nav-icon,
-.header-link:hover .nav-icon {
+
+.connect__icon {
+  fill: var(--second-text-color);
+}
+.connect__link:focus .connect__icon,
+.connect__link:hover .connect__icon {
   fill: var(--accent-text-color);
 }
-.header-link:focus,
-.header-link:hover {
+.connect__link:focus,
+.connect__link:hover {
   color: var(--accent-text-color);
-}
-.header-icon-smartphone {
-  width: 10px;
-  height: 16px;
 }
 
 .link.current {
@@ -258,6 +248,7 @@ link {
   border: 0;
   /* clip: rect(0 0 0 0); */
 }
+
 /* button */
 .button {
   color: rgba(255, 255, 255, 1);
