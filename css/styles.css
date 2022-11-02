@@ -352,11 +352,11 @@ button:focus {
   padding-bottom: 94px;
   /* flex-basis: calc((100% - 60px) /3); */
 }
-.content-container {
+.work {
   display: flex;
   flex-basis: calc((100% - 60px) / 3);
 }
-.content-title {
+.specialty__title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -370,7 +370,7 @@ button:focus {
   position: relative;
 }
 
-.thumb-text {
+.apps__thum-text {
   font-size: 14px;
   line-height: 1.14px;
   text-align: center;
@@ -392,7 +392,7 @@ button:focus {
   position: relative;
 }
 
-.mobile-app-text {
+.apps__mobile-text {
   font-size: 14px;
   line-height: 1.14px;
   text-align: center;
@@ -413,7 +413,7 @@ button:focus {
 .thumb-designe {
   position: relative;
 }
-.thumb-designe-text {
+.apps__designe-text {
   font-size: 14px;
   line-height: 1.14px;
   text-align: center;
@@ -431,7 +431,7 @@ button:focus {
   align-items: center;
   justify-content: center;
 }
-.content-link {
+.apps__link {
   position: relative;
 }
 .slider {
@@ -522,7 +522,7 @@ button:focus {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.customers-title {
+.customers__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -533,13 +533,13 @@ button:focus {
   margin-left: auto;
   margin-bottom: 50px;
 }
-.customers-list {
+.company__list {
   display: flex;
   gap: 30px;
   align-items: center;
 }
 
-.customers-link {
+.company__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -555,31 +555,21 @@ button:focus {
     cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customers-link .customers-icon {
+.company__link .company__icon {
   transition: fill 250ms
     cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customers-container {
-  background-color: var(
-    --ptimary-backgrond-color
-  );
-  padding: 16px 32px;
-  text-align: center;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-}
-
-.customers-link:focus,
-.customers-link:hover {
+.company__link:focus,
+.company__link:hover {
   border-color: var(--accent-text-color);
 }
-.customers-link:focus .customers-icon,
-.customers-link:hover .customers-icon {
+.company__link:focus .company__icon,
+.company__link:hover .company__icon {
   fill: var(--accent-text-color);
 }
 
-.customers-icon {
+.company__icon {
   fill: #afb1b8;
 }
 
@@ -960,9 +950,6 @@ footer {
   line-height: 1.15;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-}
-.modal-list-text {
-  margin-bottom: 10px;
 }
 
 .form-label {
