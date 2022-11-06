@@ -1,9 +1,14 @@
 @import './base/reset';
 @import './components/container';
 @import './utils/vars';
+@import './utils/vissually-hidden';
+@import './utils/is-hidden';
+@import './command/button';
 @import './command/header';
 @import './layouts/hero';
 @import './layouts/about';
 @import './layouts/content';
 @import './layouts/slider';
 @import './layouts/customers';
+@import './command/footer';
+@import './layouts/modal';
