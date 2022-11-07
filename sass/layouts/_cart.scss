@@ -56,11 +56,16 @@
 
   color: var(--primary-text-color);
   background-color: rgba(33, 150, 243, 0.9);
+
+  .project-item:focus & ,
+  .project-item:hover & {
+    transform: translateY(0);
+  }
+    .cart-container-link:focus & {
+      transform: translateY(0);
+    }
 }
 
-.project-item:hover .product-text {
-  transform: translateY(0);
-}
 
 .secondary-list .item {
   flex-basis: calc((100% - 60px) / 3);
@@ -96,4 +101,5 @@
       0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
+
 }

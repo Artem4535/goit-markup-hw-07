@@ -52,11 +52,12 @@
 
 .footer-list .item {
   margin-bottom: 9px;
+  &:last-child {
+      margin-bottom: 0;
+    }
 }
 
-.footer-list .item:last-child {
-  margin-bottom: 0;
-}
+
 
 .footer-title-icons {
   font-weight: 700;

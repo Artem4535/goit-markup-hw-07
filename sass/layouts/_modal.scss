@@ -114,13 +114,7 @@
   padding-top: 12px;
 }
 
-.form-textarea::placeholder {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
+
 .form-textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -132,6 +126,13 @@
     border-color: var(--accent-text-color);
     outline: transparent;
   }
+     &::placeholder {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 1.16;
+      letter-spacing: 0.01em;
+      color: rgba(117, 117, 117, 0.5);
+    }
 }
 
 .checkbox-label {
