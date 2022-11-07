@@ -3,7 +3,9 @@
 @import './utils/vars';
 @import './utils/vissually-hidden';
 @import './utils/is-hidden';
-@import './command/button';
-@import "./command/header";
-@import './layouts/cart';
-@import './command/footer';
+@import './components/button';
+@import './layouts/header';
+@import './components/cart';
+@import './layouts/footer';
+
+
